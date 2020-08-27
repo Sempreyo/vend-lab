@@ -1,0 +1,35 @@
+extends layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'index.html'
+		};
+
+
+
+
+block main
+	.analytics
+		.analytics__title Венд-Аналитика
+		.analytics__picture
+			img(src='img/laptop.png')
+	.analytics-about
+		.container.analytics-about__container
+			.analytics-about__picture
+				img(src='img/analytics.png')
+			.analytics-about__text
+				.analytics-about__picture-mobile
+					img(src='img/analytics-part-1.png')
+				.analytics-about__text-item Венд-Аналитика отображает информацию о движениях и остатках товаров и  денежных
+																|  средств по торговым автоматам, операторам, складам, кассам и банковским счетам
+				.analytics-about__picture-mobile
+					img(src='img/analytics-part-2.png')
+				.analytics-about__text-item Позволяет контролировать взаиморасчеты с поставщиками, отслеживать в режиме
+																|  реального времени неработающие автоматы и автоматы с недостаточным количеством продуктов.
+				.analytics-about__picture-mobile
+					img(src='img/analytics-part-3.png')
+				.analytics-about__text-item Система предоставляет богатый инструментарий для анализа всех типов исходных данных
+																|  (документов, справочников, их табличных частей и логов событий), который включает в
+																|  себя создание дополнительных полей, фильтрацию и сортировку записей, формирование
+																|  сводных таблиц и составных отчётов.
